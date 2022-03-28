@@ -20,22 +20,23 @@
         <!-- 本書の特徴 -->
         <section class="feature"> <!-- 見出し画像_h2 -->
             <h2><img src="../start/img/heading_01.svg" alt=""></h2>
-
-            <section class="feature_01"> <!-- Section1_h3 -->
-                <p class="feature_img"><img src="../start/img/feature_01.png" alt=""></p>
-                <h3>「自分のペースで勉強しやすい！」</h3>
-                <p class="feature_text">本書では、各記事ごとに15分、30分、60分・・・など、学習時間の目安を設けています。ちょっとした空き時間に少しずつ勉強したり、難しめのパートは集中して取り組んだり、自分のペースで学習していくことができます。</p>
-            </section>
-            <section class="feature_02"> <!-- Section2_h3 -->
-                <p class="feature_img"><img src="../start/img/feature_02.png" alt=""></p>
-                <h3>「技術と理論の両方を習得できる！」</h3>
-                <p class="feature_text">1冊の中で、手を動かして作ってみるパート（実践）と、読んで基本知識を身につけるパート（理論）の両方を交えています。HTMLやCSSの書き方・使い方はもちろん、「なぜ、必要なのか」「どうして、そう書くのか」も習得できます。</p>
-            </section>
+            <div class="feature-wrap">
+                <section class="feature_01"> <!-- Section1_h3 -->
+                    <p class="feature_img"><img src="../start/img/feature_01.png" alt=""></p>
+                    <h3>「自分のペースで勉強しやすい！」</h3>
+                    <p class="feature_text">本書では、各記事ごとに15分、30分、60分・・・など、学習時間の目安を設けています。ちょっとした空き時間に少しずつ勉強したり、難しめのパートは集中して取り組んだり、自分のペースで学習していくことができます。</p>
+                </section>
+                <section class="feature_02"> <!-- Section2_h3 -->
+                    <p class="feature_img"><img src="../start/img/feature_02.png" alt=""></p>
+                    <h3>「技術と理論の両方を習得できる！」</h3>
+                    <p class="feature_text">1冊の中で、手を動かして作ってみるパート（実践）と、読んで基本知識を身につけるパート（理論）の両方を交えています。HTMLやCSSの書き方・使い方はもちろん、「なぜ、必要なのか」「どうして、そう書くのか」も習得できます。</p>
+                </section>
+            </div>
             <p class="book-more"><a href="https://books.mdn.co.jp/books/3219203009/">出版社・本書紹介ページへ</a></p>
         </section>
 
         <!-- 本書の章構成_h2 -->
-        <section>
+        <section class="contents-list">
             <h2><img src="../start/img/heading_02.svg" alt="本書の章構成"></h2>
             <ul>
                 <li>Lesson1　Webサイトの成り立ち</li>
@@ -51,7 +52,7 @@
         </section>
 
         <!-- 本書の著者_h2 -->
-        <section>
+        <section class="author">
             <h2><img src="../start/img/heading_03.svg" alt=""></h2>
             <dl>
                 <dt>栗谷 幸助</dt><!--栗谷 幸助-->
@@ -74,17 +75,23 @@
 
     <!-- footer -->
     <footer>
-        <p>初心者からちゃんとしたプロになる<br>Webデザイン基礎入門</p>
-        <ul><!--書籍情報-->
-            <li>発売日：2019-09-25</li>
-            <li>仕様：B5変型判／336P</li>
-            <li>ISBN：978-4-8443-6890-8</li>
-        </ul>
-        <ul><!--外部SNS-->
-            <li></li>
-            <li></li>
-        </ul>
-        <p><small>&copy; MdN Corporation.</small></p>
+        <div class="book-info">
+            <div class="book-info-wrap">
+                <p>初心者からちゃんとしたプロになる<br>Webデザイン基礎入門</p>
+                <ul><!--書籍情報-->
+                    <li>発売日：2019-09-25</li>
+                    <li>仕様：B5変型判／336P</li>
+                    <li>ISBN：978-4-8443-6890-8</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-info">
+            <ul><!--外部SNS-->
+                <li><a href="#"><img src="../start/img/facebook.svg" alt=""></a></li>
+                <li><a href="#"><img src="../start/img/twitter.svg" alt=""></a></li>
+            </ul>
+            <p class="copyright"><small>&copy; MdN Corporation.</small></p>
+        </div>
     </footer>
 
 </body>
