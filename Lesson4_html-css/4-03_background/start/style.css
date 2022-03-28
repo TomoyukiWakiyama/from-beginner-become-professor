@@ -1,0 +1,10 @@
+.bg-001 {
+  height: 300px;
+  background: url("../start/img/bg-cat.png") center bottom no-repeat, url("../start/img/bg-stripe.png") left center repeat;
+}
+
+.bg-002 {
+  height: 300px;
+  background: url("../start/img/bg-frame.png") center bottom repeat, linear-gradient(-135deg, #ffd5c9, #ff6464);
+}
+/*# sourceMappingURL=style.css.map */

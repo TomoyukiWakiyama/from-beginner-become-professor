@@ -1,0 +1,38 @@
+table {
+    // tableの隣り合うセルの境界同士の間隔を定める
+    border-spacing: 0;
+    // tableの中のセルが境界を共有するか分離するかを設定する
+    border-collapse: collapse;
+    width: 100%;
+
+    th,td {
+        border: 1px solid #ccc;
+    }
+
+    th {
+        background-color: #a50;
+        color: #fff;
+        font-weight: 500;
+        padding: 0.1em 0;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    caption {
+        font-size: 0.8em;
+        color: #666;
+    }
+
+    .col-1 {
+        width: 20%;
+    }
+    .col-2 {
+        width: 40%;
+    }
+    .col-3 {
+        width: 40%;
+    }
+}
+

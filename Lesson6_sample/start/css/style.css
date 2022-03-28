@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* common */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, "メイリオ", Meiryo, system-ui, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* header */
+h1 {
+  margin-bottom: 24px;
+}
+
+h1 img {
+  max-width: 100%;
+}
+
+/* main */
+/* 本書の特徴 */
+h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+h2 img {
+  height: 3rem;
+}
+
+h3 {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.feature {
+  margin-bottom: 24px;
+}
+
+.feature .feature_01, .feature .feature_02 {
+  width: 296px;
+  margin: 0 auto 24px;
+}
+
+.feature .feature_01 .feature_img, .feature .feature_02 .feature_img {
+  margin-bottom: 24px;
+}
+
+.feature .feature_01 .feature_img img, .feature .feature_02 .feature_img img {
+  max-width: 100%;
+}
+
+.feature .feature_01 .feature_text, .feature .feature_02 .feature_text {
+  font-size: 0.75rem;
+}
+
+/* footer */
+/*# sourceMappingURL=style.css.map */

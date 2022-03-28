@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>お問い合わせフォーム</h1>
+    <form action="">
+        <dl>
+            <div class="form-item">
+                <dt>お名前</dt>
+                <dd><input type="text" name="name"></dd>
+            </div>
+            <div class="form-item">
+                <dt>メールアドレス</dt>
+                <dd><input type="email" name="email"></dd>
+            </div>
+            <div class="form-item">
+                <dt>職業</dt>
+                <dd>
+                    <label class="laebl_radio" for="student">学生</label>
+                    <input type="radio" name="job" id="student" value="学生" checked>
+                    <label class="laebl_radio" for="businessman">会社員</label>
+                    <input type="radio" name="job" id="businessman" value="会社員">
+                    <label class="laebl_radio" for="other">その他</label>
+                    <input type="radio" name="job" id="other" value="その他">
+                </dd>
+            </div>
+            <div class="form-item">
+                <dt>お問い合わせ種別</dt>
+                <dd>
+                    <select name="messageType">
+                        <option value="商品について" selected>商品について</option>
+                        <option value="採用について">採用について</option>
+                        <option value="その他お問い合わせ">その他お問い合わせ</option>
+                    </select>
+                </dd>
+            </div>
+            <div class="form-item">
+                <dt>お問い合わせ内容</dt>
+                <dd>
+                    <textarea name="message"></textarea>
+                </dd>
+            </div>
+            <div class="form-submit">
+                <button type="submit">送信する</button>
+            </div>
+        </dl>
+    </form>
+</body>
+</html>

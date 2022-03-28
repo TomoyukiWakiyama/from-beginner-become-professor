@@ -1,0 +1,68 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#gnav-content {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 240px;
+  -webkit-box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#gnav-content ul.gnav-list {
+  background-color: #1b9aaa;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+#gnav-content ul.gnav-list li {
+  display: block;
+}
+
+#gnav-content ul.gnav-list li a {
+  display: block;
+  padding: 1.5em;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#gnav-content ul.gnav-list li a::first-line {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.gnav-hidden {
+  display: none;
+}
+
+#gnav-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  background: #1b9aaa url(../start/img/gnav-btn-open.png) center center no-repeat;
+}
+
+#gnav-black {
+  display: none;
+  position: fixed;
+  z-index: 90;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=style.css.map */

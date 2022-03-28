@@ -1,0 +1,61 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+  background-color: #7b645b;
+  color: #504543;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
+
+footer address {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+footer .footer-inner {
+  width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+footer .footer-inner nav {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+footer .footer-inner nav ul {
+  list-style: none;
+}
+
+footer .footer-inner nav ul li {
+  display: inline-block;
+}
+
+footer .footer-inner nav ul li a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #b48456;
+}
+
+/* 960px以上のウィンドウの場合以上の設定をtrueにする */
+@media screen and (min-width: 960px) {
+  footer .footer-inner .footer-nav ul li a:hover {
+    text-decoration: underline;
+  }
+}
+/*# sourceMappingURL=style.css.map */

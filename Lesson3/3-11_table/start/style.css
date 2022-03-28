@@ -1,0 +1,38 @@
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #a50;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.1em 0;
+}
+
+table td {
+  text-align: center;
+}
+
+table caption {
+  font-size: 0.8em;
+  color: #666;
+}
+
+table .col-1 {
+  width: 20%;
+}
+
+table .col-2 {
+  width: 40%;
+}
+
+table .col-3 {
+  width: 40%;
+}
+/*# sourceMappingURL=style.css.map */

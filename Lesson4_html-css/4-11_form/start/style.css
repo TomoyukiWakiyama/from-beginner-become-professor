@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*全体の設定*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #1b9aaa;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+form {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+form dl {
+  margin: 0 auto;
+  width: 500px;
+}
+
+form dl .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+form dl .form-item dt {
+  width: 200px;
+  margin-bottom: 0.24em;
+}
+
+form dl .form-item dd {
+  width: 300px;
+}
+
+form dl .form-item input[type="radio"] {
+  margin-right: 2em;
+}
+
+form dl .form-item input[type="radio"]:last-child {
+  margin-right: 0;
+}
+
+form dl .form-item input[type="text"], form dl .form-item input[type="email"], form dl .form-item select, form dl .form-item textarea {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+form .form-submit {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    padding: 20px 0;
+  }
+  form dl {
+    width: 90%;
+  }
+  form dl .form-item {
+    display: block;
+  }
+  form dl .form-item dt {
+    width: 100%;
+  }
+  form dl .form-item dd {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

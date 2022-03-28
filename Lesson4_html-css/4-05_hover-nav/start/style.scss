@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    & ul {
+        background: #37bd82;
+        text-align: center;
+        
+        & li {
+            display: inline-block;
+            position: relative;
+            & a {
+                display: block;
+                padding: 1em;
+                color: #fff;
+                font-size: 90%;
+                text-decoration: none;
+
+                &::after {
+                    content: url("../start/img/arrow.png");
+                    margin-left: 10px;
+                    vertical-align: baseline;
+                }
+                &:hover {
+                    background: #2c9869;
+                }
+            }
+        }
+
+        &.sub-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+            & li {
+                width: 100%;
+            }
+        }
+
+        &.gnav-list li:hover > ul.sub-list {
+            display: block;
+        }
+        
+    }
+}
+
+main {
+    margin-top: 60px;
+}
+.test {
+    height: 2000px;
+    background: #999;
+    width: 90%;
+    margin: 0 auto;
+}

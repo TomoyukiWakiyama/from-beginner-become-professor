@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* common */
+body {
+  font-family: "ヒラギノ角ゴ ProN", Meiryo, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+}
+
+/* header:common */
+header img {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.mv-area img {
+  width: 100%;
+}
+
+/* section:common */
+section {
+  width: 100%;
+  padding: 40px 0;
+}
+
+section h2 {
+  border-bottom: 4px solid #fff;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+section p {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+section:nth-of-type(1) {
+  background-color: #dec200;
+}
+
+section:nth-of-type(2) {
+  background-color: #3eb6bd;
+}
+
+section:nth-of-type(3) {
+  background-color: #3d5a6d;
+}
+
+section .section-inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ol_common */
+ol li {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* table */
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #fff;
+}
+
+table th, table td {
+  padding: 1em;
+  border: 1px solid #3d5a6d;
+  color: #3d5a6d;
+}
+
+table th {
+  background-color: #bfe1f6;
+}
+
+/* form */
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form dt {
+  margin-bottom: 20px;
+}
+
+form dt::before {
+  content: "▶︎";
+  margin-right: 10px;
+}
+
+form dt, form label {
+  color: #fff;
+}
+
+form dd {
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  padding: .4em;
+  font-size: 1.1em;
+}
+
+form input[type="radio"] {
+  width: 1em;
+  margin-left: 24px;
+  margin-right: 4px;
+}
+
+form button[type="submit"] {
+  background-color: #3eb6bd;
+  margin: 40px auto 0;
+  display: block;
+  width: 70%;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.form-img-area img {
+  width: 100%;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: .9em;
+}
+
+footer address, footer small {
+  margin-bottom: 10px;
+  color: #2F4858;
+}
+/*# sourceMappingURL=style.css.map */
