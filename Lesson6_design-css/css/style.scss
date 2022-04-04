@@ -1,0 +1,36 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+a {
+    color: #0069ff;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+.header__inner {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header--border-top-orange {
+    border-top: 16px solid #fa982d;
+}
+.content {
+    max-width: 768px;
+    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    &:first-child {
+        margin-top: 40px;
+    }
+}
+.level2-heading__inner {
+    margin-bottom: 16px;
+    text-align: center;
+}
+.heading-img {
+    height: 4rem;
+}
