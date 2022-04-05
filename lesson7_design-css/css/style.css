@@ -14,6 +14,19 @@ img {
   vertical-align: top;
 }
 
+.content {
+  margin: 0 auto;
+  padding: 60px 15px;
+}
+
+.content.content__gb-blue {
+  background-color: #85a7cc;
+}
+
+.content > *:last-child {
+  margin-bottom: 0;
+}
+
 .header__inner {
   position: fixed;
   top: 0px;
@@ -149,15 +162,9 @@ img {
           transform: none;
 }
 
-.content {
-  padding: 60px 15px;
-}
-
-.content.content__gb-blue {
-  background-color: #85a7cc;
-}
-
 .info__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,15 +222,81 @@ img {
   .info__body {
     margin-left: 0;
   }
-  .info__img {
-    -webkit-box-flex: 0;
-        -ms-flex: 0;
-            flex: 0;
-  }
-  .info__body {
-    -webkit-box-flex: 0;
-        -ms-flex: 0;
-            flex: 0;
-  }
+}
+
+.service__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.level2-heading {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+.level2-heading::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background-color: #a5d1ff;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+          transform: translateX(-50%) rotate(45deg);
+  z-index: -1;
+}
+
+.level3-heading {
+  margin-bottom: 20px;
+  font-size: .9rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #85a7cc;
+  font-weight: bold;
+}
+
+.content__text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.service__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service__content-body {
+  padding: 20px 20px 0;
+  text-align: center;
+  margin: 5px;
+  border: 3px solid #527acc;
+  border-radius: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.service__content-image {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.level4-heading {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service__content-text {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
