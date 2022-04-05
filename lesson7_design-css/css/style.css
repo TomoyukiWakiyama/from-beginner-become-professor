@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   color: #222;
   font-family: 'Noto Sans JP', 'Open Sans', sans-serif;
@@ -101,5 +102,128 @@ img {
 
 .jumbotron__btn-wrapper {
   display: block;
+}
+
+.jumbotron__btn {
+  display: inline-block;
+  max-width: 100%;
+  padding: 16px 35px;
+  background-color: #6699ff;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+.slide-bg {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.slide-bg span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  z-index: -1;
+}
+
+.slide-bg:hover {
+  color: #6699ff;
+}
+
+.slide-bg:hover span {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.content {
+  padding: 60px 15px;
+}
+
+.content.content__gb-blue {
+  background-color: #85a7cc;
+}
+
+.info__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.info__img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.info__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 30px;
+}
+
+.info__title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.info__text {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .info__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    /* 縦並び逆順 */
+    gap: 20px;
+    /* 余白 */
+  }
+  .info__body {
+    margin-left: 0;
+  }
+  .info__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+  .info__body {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
